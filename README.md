@@ -16,3 +16,5 @@ Going through this self-paced course @ [Udacity](https://www.udacity.com/course/
 * `brew tap hashicorp/tap`
 * `brew install hashicorp/tap/vagrant`
 * `cd fullstack/vagrant` `vagrant up` `vagrant ssh`
+
+PS, config for MacOs [here](https://scriptcrunch.com/solved-vboxmanage-error-component-machinewrap/). 
