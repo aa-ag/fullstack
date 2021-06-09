@@ -19,6 +19,19 @@ class Restaurant(Base):
     id = Column(Integer, primary_key=True)
 
 
+############------------ CLASS ------------############
+class Menu(Base):
+    ############------------ TABLE INFO -------########
+    ___tablename__ = "menu_item"
+    ############------------ MAPPER ------------#######
+    name = Column(String(80), nullable=False)
+    course = Column(String(250))
+    description = Column(String(250))
+    price = Column(String(8))
+    restaurant_id = Column(Integer, ForeignKey('restaurant_id'))
+    restaurant = relationship(Restaurant)
+
+
 ############------------ CONFIGURATION 2/2 ------------############
 engine = create_engine('sqlite://restaurantmenu.db')
 
