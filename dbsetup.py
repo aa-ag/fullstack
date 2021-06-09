@@ -34,6 +34,10 @@ class Menu(Base):
 
     @property
     def serialize(self):
+        '''
+         serializes formate to be able to send
+         JSON objects.
+        '''
         return {
             'name': self.name,
             'description': self.description,
