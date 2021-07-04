@@ -1,9 +1,12 @@
 # Settings or config
 settings
 settings.py
-
 config
 config.py
+
+# class inputs
+class_stuff
+class_stuff/*
 
 # .DS Store
 .DS_Store
