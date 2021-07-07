@@ -8,6 +8,11 @@ config.py
 class_stuff
 class_stuff/*
 
+fullstack-nanodegree-vm
+fullstack-nanodegree-vm/*
+Vagrantfile
+.vagrant
+
 # .DS Store
 .DS_Store
 
