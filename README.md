@@ -4,8 +4,6 @@ Going through this self-paced course @ [Udacity](https://www.udacity.com/course/
 
 ## syllabus prereqs
 
-* [Python](https://www.udacity.com/course/introduction-to-python--ud1110)
-* [HTML & CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001)
 * [RDBs/SQL](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 
 
