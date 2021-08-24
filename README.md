@@ -12,3 +12,4 @@ Going through this self-paced course @ [Udacity](https://www.udacity.com/course/
 * `conda create -n fullstack`
 * `conda activate fullstack`
 * `conda install python`
+* `conda install -c conda-forge sqlite`
